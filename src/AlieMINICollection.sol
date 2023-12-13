@@ -11,7 +11,7 @@
  *
  */
 
-pragma solidity ^0.8.19;
+pragma solidity ^0.8.18;
 
 import {ERC721A} from "erc721a/contracts/ERC721A.sol";
 import {Ownable} from "@openzeppelin/contracts/access/Ownable.sol";

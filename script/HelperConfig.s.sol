@@ -17,7 +17,9 @@ contract HelperConfig is Script {
     uint256 public constant ANVIL_DEPLOYER_KEY = 0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80;
 
     constructor() {
-        if (block.chainid == 11155111) {
+        if (block.chainid == 137) {
+            activeConstructorConfig = getPolygonPoSConstructorConfig();
+        } else if (block.chainid == 11155111) {
             activeConstructorConfig = getSepoliaConstructorConfig();
         } else if (block.chainid == 80001) {
             activeConstructorConfig = getMumbaiConstructorConfig();
@@ -52,6 +54,16 @@ contract HelperConfig is Script {
             _totalSupply: 125,
             _maxMintsPerAddress: 5,
             _devFee: 10,
+            _deployerKey: vm.envUint("PRIVATE_KEY")
+        });
+    }
+
+    function getPolygonPoSConstructorConfig() public view returns (ConstructorConfig memory config) {
+        config = ConstructorConfig({
+            _price: 1e18,
+            _totalSupply: 125,
+            _maxMintsPerAddress: 3,
+            _devFee: 20,
             _deployerKey: vm.envUint("PRIVATE_KEY")
         });
     }
