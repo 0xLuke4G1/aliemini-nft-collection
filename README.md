@@ -21,7 +21,7 @@ The smart contract implements an Airdrop Mechanism that allows the `owner` to **
 
 ## Deployed Contracts
 
-**Mumbai**: 0x5CDB0594aA5d8Ea350a17991d4C79631d6270D8c
+**Mumbai**: 0xf3ED488ca6bA4a53d76A930515C546e7c827263F
 
 **Polygon PoS**: 0x59EEdCf7cCB566eC1001A8A43C6F609B80e6f661
 
