@@ -10,7 +10,7 @@ Each NFT in the collection serves as a passport to an exclusive club of collecto
 
 ## Features
 
-**Limited Collection**: Only 125 unique NFTs available.
+**Limited Collection**: Only 125 unique NFTs are available.
 
 This collection is built using the **ERC721A implementation** to save significant amounts of gas when performing mint operations.
 
@@ -21,9 +21,18 @@ The smart contract implements an Airdrop Mechanism that allows the `owner` to **
 
 ## Deployed Contracts
 
-**Mumbai**: 0xf3ED488ca6bA4a53d76A930515C546e7c827263F
+**Polygon PoS**: _0x59EEdCf7cCB566eC1001A8A43C6F609B80e6f661_
 
-**Polygon PoS**: 0x59EEdCf7cCB566eC1001A8A43C6F609B80e6f661
+## Links
+
+**Official Minting Website**: _https://0xluke4g1.github.io/aliemini-nft-minting-app/_
+
+**OpenSea**: _https://opensea.io/collection/aliemini-collection_
+
+**PolygonScan**: _https://polygonscan.com/address/0x59EEdCf7cCB566eC1001A8A43C6F609B80e6f661_
+
+
+
 
 ## Developer
 
