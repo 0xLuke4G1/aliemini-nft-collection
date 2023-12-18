@@ -12,10 +12,10 @@ Each NFT in the collection serves as a passport to an exclusive club of collecto
 
 **Limited Collection**: Only 125 unique NFTs available.
 
-This collection is built using the **ERC721A implementation** to save significant quantity of gas when performing min operations.
+This collection is built using the **ERC721A implementation** to save significant amounts of gas when performing mint operations.
 
 User can mint their own AlieMINI NFT by interacting with the function `mintMINI()` and paying the public price.
-For each mint transaction, a part of the price that is payed will be sent to the developer of the collection as `FEE`.
+For each mint transaction, a part of the price that is paid will be sent to the developer of the collection as `FEE`.
 
 The smart contract implements an Airdrop Mechanism that allows the `owner` to **airDrop** AlieMINI tokens to users.
 
